@@ -1,6 +1,6 @@
 import telebot
-from validate_data import ValidationData
-from data_processing import DataProcessing
+from data.data_operations.validate_data import ValidationData
+from data.data_operations.data_processing import DataProcessing
 
 
 class Variables:

@@ -1,5 +1,5 @@
 from telebot.types import Message
-from variables import Variables
+from bot_components.variables import Variables
 from commands.commands_pationts_registration.record_info import RecordInfoCommand
 
 

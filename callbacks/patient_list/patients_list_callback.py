@@ -1,7 +1,7 @@
 from callbacks.callback_template import CallbackTemplate
 from callbacks.patient_list.days_week_patients_list_callback import DayPatientListCallback
 from telebot.types import CallbackQuery
-from variables import Variables
+from bot_components.variables import Variables
 from commands.commands_patients_list.command_days_week_buttons import DaysWeekCommand
 
 

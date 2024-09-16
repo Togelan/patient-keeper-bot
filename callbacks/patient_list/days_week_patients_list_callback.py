@@ -1,6 +1,6 @@
 from callbacks.callback_template import CallbackTemplate
 from telebot.types import CallbackQuery
-from variables import Variables
+from bot_components.variables import Variables
 
 
 class DayPatientListCallback(CallbackTemplate):

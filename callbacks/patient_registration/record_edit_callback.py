@@ -1,6 +1,6 @@
 from callbacks.callback_template import CallbackTemplate
 from telebot.types import CallbackQuery
-from variables import Variables
+from bot_components.variables import Variables
 from datetime import datetime
 from commands.commands_pationts_registration.command_fio_birth import PatientRegistrationCommand
 

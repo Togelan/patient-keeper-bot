@@ -1,5 +1,5 @@
 from telebot.types import CallbackQuery
-from variables import Variables
+from bot_components.variables import Variables
 from abc import ABC, abstractmethod
 
 

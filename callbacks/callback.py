@@ -4,7 +4,7 @@ from callbacks.clean_file_callback import CleanFileCallback
 from callbacks.patient_list.patients_list_callback import PatientListCallback
 from callbacks.patient_registration.fio_birth_callback import FioBirthCallback
 from callbacks.patient_registration.record_edit_callback import RecordEditCallback
-from variables import Variables
+from bot_components.variables import Variables
 
 
 class Callback(CallbackTemplate):

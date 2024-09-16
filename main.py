@@ -1,4 +1,4 @@
-from bot import PatientBot
+from bot_components.bot import PatientBot
 
 bot = PatientBot()
 bot.run()

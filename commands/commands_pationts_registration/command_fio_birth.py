@@ -1,7 +1,7 @@
 from telebot.types import Message
 import telebot
 from commands.command_template import CommandTemplate
-from variables import Variables
+from bot_components.variables import Variables
 
 
 class PatientRegistrationCommand(CommandTemplate):

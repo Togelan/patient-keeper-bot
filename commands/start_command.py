@@ -1,8 +1,8 @@
 from telebot.types import Message
 import telebot
 from .command_template import CommandTemplate
-from data_base import DataBase
-from variables import Variables
+from data.data_operations.data_base import DataBase
+from bot_components.variables import Variables
 
 
 class StartCommand(CommandTemplate):
